@@ -1,5 +1,5 @@
 import * as assert from 'assert'
-import { createNode, TreeNode, NullableTreeNode, isTreeNode, TreeNodeOptions } from '..'
+import { createNode, TreeNode, NullableTreeNode, isTreeNode } from '..'
 
 describe( 'Node', () => {
   it( 'creates a node', () => {

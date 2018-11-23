@@ -10,10 +10,10 @@ const toApi = nodeValue => nodeValue[ apiSymbol ]
 export interface TreeNodeOptions<T> {
   extend?: (
     node: TreeNode<T>,
-    nodeValue?: T,
-    tree?,
-    valueSymbol?: Symbol,
-    apiSymbol?: Symbol
+    nodeValue: T,
+    tree,
+    valueSymbol: Symbol,
+    apiSymbol: Symbol
   ) => void
 }
 

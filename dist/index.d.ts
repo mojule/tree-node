@@ -1,7 +1,7 @@
 export declare const valueSymbol: unique symbol;
 export declare const apiSymbol: unique symbol;
 export interface TreeNodeOptions<T> {
-    extend?: (node: TreeNode<T>, nodeValue?: T, tree?: any, valueSymbol?: Symbol, apiSymbol?: Symbol) => void;
+    extend?: (node: TreeNode<T>, nodeValue: T, tree: any, valueSymbol: Symbol, apiSymbol: Symbol) => void;
 }
 export declare type NullableTreeNode<T> = TreeNode<T> | null;
 export interface TreeNode<T> {
